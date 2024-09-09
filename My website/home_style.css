@@ -18,9 +18,8 @@
   font-weight: 400;
   font-style: normal;
 }
-
-.link-container{
-  padding-top: 50px;
+.links{
+  text-decoration: none;
 }
 body{
   margin: auto;
@@ -65,3 +64,4 @@ body{
   float: right;
   padding-top: 50px;
 }
+

@@ -9,6 +9,8 @@
       {
         "document-title": "off"
       }
-    ]
+    ],
+    "disown-opener": "off",
+    "no-inline-styles": "off"
   }
 }

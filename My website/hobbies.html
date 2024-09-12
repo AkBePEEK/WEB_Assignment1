@@ -6,24 +6,102 @@
     <meta charset="utf-8" />
     <title>My Personal Webpage</title>
     <style>
-        
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        img{
+            max-width: 25px;
+            max-height: 25px;
+        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Tangerine:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home_style.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1><a href="home.html" class="links" style="color: white;">Myself</a></h1>
-    </div>
-    <div class="left-column"></div>
-    <div class="right-column"></div>
+    <header style="font-size: xx-large;">
+        <h1 style="text-align: center;">
+            <a href="home.html">
+                Myself
+            </a>
+        </h1>
+
+        <div style="margin-left: 1680px;">
+            <a href="contact me.html" class="button">
+                contact me
+            </a>
+            <a href="hobbies.html" class="button">
+                My hobbies
+            </a>
+        </div>
+    </header>
     <div class="central-column">
-        
+        <h1>My Hobbies</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#sports" class="rows">Sports</a>
+                    </td>
+                    <td>
+                        <a href="#martial arts" class="rows">Martial Arts</a>
+                    </td>
+                    <td>
+                        <a href="#other sports" class="rows">Other Sports</a>
+                    </td>
+                    <td>
+                        <a href="#gaming" class="rows">Gaming</a>
+                    </td>
+                    <td>
+                        <a href="#anime" class="rows">Anime</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <dl>
+            <div id="sports">
+
+                <dt>Sports</dt>
+                <dd>
+                    <div id="martial arts">
+                        <dl>
+                            <dt>Martial Arts</dt>
+                            <dd>Greco-Roman wrestling&#129340: 2 year experience, no achievements (didn't participated in any competitions)</dd>
+                            <dd>Karate-do Kyokushin&#129355: 4,5 year experinece, yellow belt, 1 gold medal &#127941</dd>
+                        </dl>
+                    </div>
+                    <div id="other sports">
+                        <dl>
+                            <dt>Other Sports</dt>
+                            <dd>Football&#9917: 2.5 year experience, no achievements (locals where too good)</dd>
+                            <dd>Tennis&#127934: 3 year experience, no achievements (didn't participated in any competitions)</dd>
+                        </dl>
+                    </div>
+                </dd>
+            </div>
+            <div id="gaming">
+                <dt>Gaming&#127918</dt>
+                <dd>Valorant<img src="C:\Users\Main\Downloads\64741-valorant.png" alt="valorant">: <a href="https://tracker.gg/valorant/profile/riot/AkBe%237777/overview?playlist=competitive&season=all" class="rows">tracker profile</a>, 472 hours, Ascendant 1<img src="https://cdn3.emoji.gg/emojis/6329-valorant-ascendant-1.png" width="64px" height="64px" alt="Valorant_Ascendant_1">, peak rank</dd>
+                <dd>Counter Strike 2<img src="https://cdn3.emoji.gg/emojis/1646-csgo.png" alt="CSGO">: <a href="https://www.faceit.com/ru/players/TrueAkbe" class="rows"><img src="https://cdn3.emoji.gg/emojis/3194_FaceIT.png" width="64px" height="64px" alt="FaceIT">faceit profile</a>,<a href="https://steamcommunity.com/profiles/76561199100626280/" class="rows"><img src="https://cdn3.emoji.gg/emojis/9068-steam.png" width="64px" height="64px" alt="Steam">steam profile</a>, 1 630 hours, mg1 and faceit lvl 4 peak</dd>
+            </div>
+            <div id="anime"> 
+                <dt>Anime</dt>
+                <dd>Favorite ones: Steins;Gate, Mushoku Tensei, Demon SLayer, Solo leveling, Re:Zero, SAO, Bunny Girl Senpai, Kami No Tou</dd>
+            </div>
+            <dt>Also I have acoustic guitar(Yamaha F310)</dt>
+        </dl>
+    </div>
+    
+    <div> </div>
+
     </div>
 </body>
 
